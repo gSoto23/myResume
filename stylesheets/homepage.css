@@ -1,0 +1,82 @@
+/* line 3, ../sass/homepage.scss */
+body {
+  background-color: #27292e !important;
+  color: #9c9c9c;
+  font-size: 45px;
+  font-family: "Open Sans", sans-serif;
+}
+/* line 11, ../sass/homepage.scss */
+body h1 {
+  font-size: 44px;
+}
+/* line 16, ../sass/homepage.scss */
+body h2 {
+  font-size: 35px;
+}
+/* line 20, ../sass/homepage.scss */
+body .row {
+  clear: both;
+  display: block;
+}
+/* line 26, ../sass/homepage.scss */
+body #Box1 {
+  background-color: gray;
+  border: 1px solid;
+}
+/* line 31, ../sass/homepage.scss */
+body .box-2 {
+  background-color: blue;
+  border: 1px solid;
+}
+/* line 37, ../sass/homepage.scss */
+body .togAct {
+  background-color: #996633;
+  font-size: 50px;
+}
+
+/* line 43, ../sass/homepage.scss */
+.demo {
+  background-color: red;
+  border: 1px solid;
+  font-size: 30px;
+}
+
+/* --------------------------
+Sticky Header and Global Menu
+----------------------------*/
+/* line 53, ../sass/homepage.scss */
+header {
+  text-align: center;
+  font-size: 72px;
+  line-height: 108px;
+  height: 108px;
+  background: #335C7D;
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+/* line 67, ../sass/homepage.scss */
+header.sticky {
+  position: fixed;
+  font-size: 50px;
+  line-height: 48px;
+  height: 60px;
+  width: 100%;
+  background: #efc47D;
+  text-align: left;
+}
+
+/* line 77, ../sass/homepage.scss */
+a.icon-GS2 {
+  float: left;
+  font-size: 140%;
+  margin-left: 1%;
+}
+
+/*
+------- End of Sticky Header----------
+*/
+
+/*# sourceMappingURL=homepage.css.map */

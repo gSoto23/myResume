@@ -1,0 +1,87 @@
+@import "_utils.scss";
+
+body{
+
+	background-color: #27292e !important;
+	color: $fntColor;
+	font-size: 45px;
+	font-family: $PrimaryFont;
+
+
+	h1{
+		font-size: 44px;
+
+	}
+
+	h2{
+		font-size: 35px;
+	}
+
+	.row{
+		clear: both;
+		display: block;
+	}
+
+	
+	#Box1{
+    background-color: gray;
+    border: 1px solid;
+	}
+
+	.box-2{
+    background-color: blue;
+    border: 1px solid;
+
+	}
+	
+	.togAct{
+		background-color:#996633;
+		font-size: 50px;
+	}
+}
+
+.demo {
+	background-color: red;
+	border: 1px solid;
+	font-size: 30px;
+}
+
+/* --------------------------
+Sticky Header and Global Menu
+----------------------------*/
+
+ header{
+            text-align: center;
+            font-size: 72px;
+            line-height: 108px;
+            height: 108px;
+            background: #335C7D;
+            color: #fff;
+            font-family: 'PT Sans', sans-serif;
+            
+            // set animation
+            -webkit-transition: all 0.4s ease;
+            transition: all 0.4s ease;
+        }
+        
+        header.sticky {
+            position: fixed;
+            font-size: 50px;
+            line-height: 48px;
+            height: 60px; 
+            width: 100%;
+            background: #efc47D;
+            text-align: left;
+        }
+
+a.icon-GS2{
+    float: left;
+    font-size: 140%;
+    margin-left: 1%;
+}
+
+
+
+/*
+------- End of Sticky Header----------
+*/
