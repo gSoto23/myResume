@@ -4,8 +4,16 @@ body{
 
 	background-color: #27292e !important;
 	color: $fntColor;
-	font-size: 45px;
+	font-size: 20px;
 	font-family: $PrimaryFont;
+
+	a{
+		text-decoration: none;
+		color: $fntColor;
+		&:hover{
+			color: $detailsColor;
+		}
+	}
 
 
 	h1{
@@ -51,14 +59,9 @@ Sticky Header and Global Menu
 ----------------------------*/
 
  header{
-            text-align: center;
-            font-size: 72px;
-            line-height: 108px;
+ 			
             height: 108px;
-            background: #335C7D;
-            color: #fff;
-            font-family: 'PT Sans', sans-serif;
-            
+            font-size: 90px;
             // set animation
             -webkit-transition: all 0.4s ease;
             transition: all 0.4s ease;
@@ -66,22 +69,39 @@ Sticky Header and Global Menu
         
         header.sticky {
             position: fixed;
-            font-size: 50px;
-            line-height: 48px;
-            height: 60px; 
+            height: 70px; 
             width: 100%;
-            background: #efc47D;
+            background: white;
             text-align: left;
+            font-size: 70px;
         }
+
 
 a.icon-GS2{
     float: left;
-    font-size: 140%;
     margin-left: 1%;
+    display: inline-block;
 }
 
 
+// Menu
+	#logoHome:hover{
 
+		color: $detailsColor;
+	}
+
+	.menuWraper{
+
+		padding-top: 3%;
+	}
+	
+	nav li{
+
+		display: inline-block;
+		float: right;
+		margin: 0 10px;
+		font-size: 20px;
+	}
 /*
 ------- End of Sticky Header----------
 */
