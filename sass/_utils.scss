@@ -4,4 +4,10 @@ $fntSecColor: #d4d4d5;
 $detailsColor: #fec107;
 $PrimaryFont: "Open Sans", sans-serif;
 $bkColor: #27292e;
+$divShadow: 0px 1px 7px #888888;
 
+// Convert PX to REMs
+$browser-context: 16; // Default
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em
+}
