@@ -1,6 +1,11 @@
 @import "_utils.scss";
 @import "_mixin.scss";
 
+.clearDiv{
+
+	clear:both;
+}
+
 body{
 
 	background-color: #27292e !important;
@@ -150,8 +155,25 @@ a.icon-GS2{
 	margin: auto;
 	background-color:yellow;
 	border: 1px white solid;
+	position: absolute;
+    top: -315px;
+    left: 10%;
+    box-shadow: $divShadow;
 
 }
 
+.profilePhoto{
+
+	display: inline-block;
+	border: 1px black solid;
+	height: 100px;
+}
+
+.profileData{
+
+	display: inline-block;
+	border: 1px black solid;
+	height: 100px;
+}
 
 
