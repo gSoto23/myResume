@@ -1,0 +1,33 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Gerardo's Resume",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglyfly": "^1.4.2"
+  },
+  "devDependencies": {
+    "gulp-uglyfly": "^1.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gSoto23/myResume.git"
+  },
+  "keywords": [
+    "resume",
+    "gerardo",
+    "web",
+    "front",
+    "end"
+  ],
+  "author": "Gerardo Soto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gSoto23/myResume/issues"
+  },
+  "homepage": "https://github.com/gSoto23/myResume#readme"
+}
