@@ -24,7 +24,7 @@ function init () {
 		}
 	});
 
-	/* End of Sticky Header*/
+	/* End of Sticky Header */
 
 
 }

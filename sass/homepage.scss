@@ -1,6 +1,10 @@
 @import "_utils.scss";
 @import "_mixin.scss";
 
+.uuu{
+
+	 transform: rotate(81deg);
+}
 .clearDiv{
 
 	clear:both;
@@ -23,7 +27,7 @@ body{
 
 
 	h1{
-		font-size: em(44);
+		font-size: em(41);
 
 	}
 
